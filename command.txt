@@ -1,0 +1,13 @@
+label-studio
+
+
+<View>
+  <Image name="image" value="$image" zoom="true"/>
+  <RectangleLabels name="label" toName="image">
+    <Label value="0 - Healthy" background="green"/>
+    <Label value="1 - Doubtful" background="blue"/>
+    <Label value="2 - Minimal" background="orange"/>
+    <Label value="3 - Moderate" background="purple"/>
+    <Label value="4 - Severe" background="red"/>
+  </RectangleLabels>
+</View>
